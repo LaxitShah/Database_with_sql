@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login_with_sql_3"
+    android:orientation="vertical"
+    android:background="@color/black"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_name_sql"
+        android:layout_marginTop="52dp"
+        android:hint="First Name"
+        android:background="#FFFF00"
+        android:padding="16dp"
+        android:drawablePadding="12dp"
+        android:singleLine="true"
+        android:textColor="#00008B "
+        android:textColorHint="#00008B"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/last_name_sql"
+        android:layout_marginTop="32dp"
+        android:hint="Last Name"
+        android:background="#FFFF00"
+        android:padding="16dp"
+        android:drawablePadding="12dp"
+        android:singleLine="true"
+        android:textColor="#00008B"
+        android:textColorHint="#00008B"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.widget.Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_update_sql"
+            android:background="#EDE3FF"
+            android:text="Update"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginHorizontal="80dp"
+            />
+        <android.widget.Button
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:id="@+id/btn_delete_sql"
+            android:background="#EDE3FF"
+            android:text="Delete"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="50dp"
+            android:layout_marginHorizontal="80dp"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
